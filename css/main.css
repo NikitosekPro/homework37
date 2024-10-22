@@ -378,6 +378,12 @@ input:focus {
     margin-bottom: 16px;
   }
 }
+@media screen and (max-width: 480px) {
+  .header--flex {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+}
 @media screen and (min-width: 768px) {
   .header--flex {
     width: 768px;
