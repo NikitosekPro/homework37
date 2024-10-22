@@ -27,12 +27,6 @@
   display: flex;
   align-items: center;
 }
-.header-nav {
-  @media screen and (min-width: $desktop-adapt) {
-
-  
-  }
-}
 
 .header-contact {
   @media screen and (min-width: $tablet-adapt) {
@@ -111,6 +105,8 @@
 
     @media screen and (min-width: $mobile-adapt) {
       width: 480px;
+      margin-top: 16px;
+      margin-bottom: 16px;
 
 
     }

@@ -1,5 +1,5 @@
 .menu-container {
-    visibility: hidden;
+    // visibility: hidden;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,7 +17,7 @@
 
 
 .menu-container.is-open {
-    visibility: visible;
+    // visibility: visible;
     transform: translateX(0);
 }
 
@@ -45,6 +45,10 @@
 .mobile-menu__item {
     display: flex;
     justify-content: start;
+}
+
+.mobile-menu__item:hover {
+    color: $blue-color;
 }
 
 .mobile-menu__item--link--current {
@@ -84,6 +88,10 @@
 .mobile-close-btn {
     fill: $black-color;
     display: flex;
+        justify-content: flex-end;
+        align-items: start;
+    
+
 }
 
 .mobile-margin {
