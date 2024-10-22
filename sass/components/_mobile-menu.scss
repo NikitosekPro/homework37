@@ -17,9 +17,12 @@
 
 
 .menu-container.is-open {
+    z-index: 2;
     // visibility: visible;
     transform: translateX(0);
 }
+
+
 
 .menu-toggle {
     display: none;

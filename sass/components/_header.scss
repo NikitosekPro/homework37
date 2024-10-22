@@ -59,7 +59,14 @@
     }
   }
 
-.header { 
+.header {
+  top: 0;
+  
+  position: sticky;
+  
+  background-color: #ffffff;
+  z-index: 1;
+  
   margin: 0 auto;
   overflow: hidden;
 
@@ -105,18 +112,13 @@
 
     @media screen and (min-width: $mobile-adapt) {
       width: 480px;
-      margin-top: 16px;
-      margin-bottom: 16px;
-
-
-    }
-
-
-    @media screen and (max-width: $mobile-adapt) {
-      margin-top: 16px;
-        margin-bottom: 16px;
       
+
+
     }
+
+
+    
     @media screen and (min-width: $tablet-adapt) {
 width: 768px;
     }

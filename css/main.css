@@ -321,6 +321,10 @@ input:focus {
 }
 
 .header {
+  top: 0;
+  position: sticky;
+  background-color: #ffffff;
+  z-index: 1;
   margin: 0 auto;
   overflow: hidden;
   display: -webkit-box;
@@ -374,14 +378,6 @@ input:focus {
 @media screen and (min-width: 480px) {
   .header--flex {
     width: 480px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .header--flex {
-    margin-top: 16px;
-    margin-bottom: 16px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -528,6 +524,7 @@ header li a:hover {
 }
 
 .hero {
+  margin-top: 80px;
   max-width: 480px;
   height: 400px;
   margin: 0 auto 94px;
@@ -2066,6 +2063,7 @@ textarea::placeholder {
 }
 
 .menu-container.is-open {
+  z-index: 2;
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
