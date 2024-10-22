@@ -73,10 +73,10 @@
 
   @media screen and (min-width: $tablet-adapt) {
     height: 80px;
-    width: 768px;
+    width: 100%;
   };
   @media screen and (min-width: $desktop-adapt) {
-    width: 1200px;
+    width: 100%;
 
   };
   

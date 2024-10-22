@@ -337,12 +337,12 @@ input:focus {
 @media screen and (min-width: 768px) {
   .header {
     height: 80px;
-    width: 768px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
   .header {
-    width: 1200px;
+    width: 100%;
   }
 }
 .header__burgermenu {
