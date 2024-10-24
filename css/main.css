@@ -524,6 +524,7 @@ header li a:hover {
 }
 
 .hero {
+  isolation: isolate;
   margin-top: 80px;
   max-width: 480px;
   height: 400px;
@@ -746,15 +747,19 @@ header li a:hover {
   background-position: center;
 }
 .advantage-list__item--details::before {
+  isolation: isolate;
   background-image: url(../img/studio-img/antena.svg);
 }
 .advantage-list__item--punctuality::before {
+  isolation: isolate;
   background-image: url(../img/studio-img/timer.svg);
 }
 .advantage-list__item--planning::before {
+  isolation: isolate;
   background-image: url(../img/studio-img/graphik.svg);
 }
 .advantage-list__item--technologies::before {
+  isolation: isolate;
   background-image: url(../img/studio-img/astronaut.svg);
 }
 
@@ -915,6 +920,7 @@ header li a:hover {
 }
 
 .team-item {
+  border-radius: 4px;
   background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -965,6 +971,7 @@ header li a:hover {
 }
 
 .links-item {
+  isolation: isolate;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 22px;
@@ -1050,6 +1057,7 @@ header li a:hover {
 }
 
 .clients__item {
+  isolation: isolate;
   border: 1px solid rgb(175, 177, 184);
   border-radius: 4px;
   -ms-flex-preferred-size: calc((100% - 30px) / 2);
@@ -1156,6 +1164,7 @@ header li a:hover {
 }
 
 .filter-list {
+  isolation: isolate;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1330,6 +1339,7 @@ header li a:hover {
 }
 
 .footer {
+  isolation: isolate;
   background-color: #2f303a;
   width: 100%;
   margin: 0 auto;
