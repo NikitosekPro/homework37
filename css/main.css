@@ -237,6 +237,41 @@ input:focus {
           animation-duration: 1s;
 }
 
+.scrollup {
+  padding: 12px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 50px;
+  background-color: #2196f3;
+  font-size: 0px;
+  border: 1px solid #2f303a;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+@media (1440px < height) {
+  .scrollup {
+    bottom: 24px;
+    right: 24px;
+  }
+}
+
+.scrollup__icon {
+  height: 32px;
+  width: 52px;
+  -webkit-clip-path: polygon(37.5% 44.82%, 50% 23.17%, 62.5% 44.82%, 55.19% 44.82%, 55.19% 74.73%, 45.14% 74.73%, 45.14% 44.82%);
+          clip-path: polygon(37.5% 44.82%, 50% 23.17%, 62.5% 44.82%, 55.19% 44.82%, 55.19% 74.73%, 45.14% 74.73%, 45.14% 44.82%);
+  background-color: #000000;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.scrollup:hover,
+.scrollup:focus {
+  border-color: #757575;
+  background-color: #2196f3;
+}
+
 .header-contact__item--bib {
   width: 142px;
   height: 16px;

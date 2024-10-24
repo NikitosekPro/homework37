@@ -1,0 +1,33 @@
+.scrollup {
+    
+    padding: 12px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50px;
+    background-color: $blue-color;
+    font-size: 0px;
+    border: 1px solid $hero_footer-background;
+    transition: all 0.3s linear;
+
+    @media (1440px<height) {
+        
+        bottom: 24px;
+        right: 24px;
+    }
+}
+
+.scrollup__icon {
+    height: 32px;
+    width: 52px;
+    clip-path: polygon(37.5% 44.82%, 50% 23.17%, 62.5% 44.82%, 55.19% 44.82%, 55.19% 74.73%, 45.14% 74.73%, 45.14% 44.82%);
+        background-color: #000000;
+    transition: all 0.3s linear;
+}
+
+.scrollup:hover,
+.scrollup:focus {
+    border-color: $grey-color;
+    background-color: $blue-color;
+}
+
