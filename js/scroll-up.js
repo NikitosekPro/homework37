@@ -1,15 +1,19 @@
-const scrollupBtn = document.querySelector(".scrollup");
+// Get the button
+let mybutton = document.getElementById("myBtn");
 
-const handlerScrollEvent = function () {
-  window.scrollY < 300
-    ? scrollupBtn.classList.add("visually-hidden")
-    : scrollupBtn.classList.remove("visually-hidden");
-};
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-window.addEventListener("scroll", handlerScrollEvent);
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-scrollupBtn.addEventListener("click", handlerScrollupBtnClick);
-
-function handlerScrollupBtnClick() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
