@@ -263,7 +263,7 @@ input:focus {
   width: 32px;
   -webkit-clip-path: polygon(37.5% 44.82%, 50% 23.17%, 62.5% 44.82%, 55.19% 44.82%, 55.19% 74.73%, 45.14% 74.73%, 45.14% 44.82%);
           clip-path: polygon(37.5% 44.82%, 50% 23.17%, 62.5% 44.82%, 55.19% 44.82%, 55.19% 74.73%, 45.14% 74.73%, 45.14% 44.82%);
-  background-color: #000000;
+  background-color: #ffffff;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
